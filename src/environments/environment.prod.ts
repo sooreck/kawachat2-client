@@ -1,10 +1,10 @@
 export const environment = {
   production: true,
   socket: {
-    baseUrl: 'https://kawachat2-server.herokuapp.com',
+    baseUrl: 'http://192.168.0.29:3003',
     opts: {}
   },
   api: {
-    baseUrl: 'https://kawachat2-server.herokuapp.com'
+    baseUrl: 'http://192.168.0.29:3003'
   }
 };
